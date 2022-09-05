@@ -13,7 +13,7 @@ public class Deck {
             }
             System.out.println("Number of cards in deck");
         }
-        public void printCards () {
+        public void printCards() {
             for (int i = 0; i < suit.length; i++) {
                 for (j = 0; j < ranks.length; j++) {
                     System.out.println(deck[i][j]);
